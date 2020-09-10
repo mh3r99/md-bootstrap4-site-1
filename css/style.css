@@ -1,0 +1,45 @@
+html,
+body,
+header,
+#intro {
+  height: 100%;
+}
+#intro {
+  background: url(https://vilaan.com/wp-content/uploads/2020/02/pexels-photo-92248.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.top-nav-collapse {
+  background-color: #0b1625;
+  opacity: 0.8;
+}
+
+.navbar {
+  box-shadow: none;
+}
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+}
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+@media (max-width: 990px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #0b1625;
+  }
+}
